@@ -1,0 +1,244 @@
+*{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+}
+/*------------------responsive for phones and tablets-----------*/
+@media only screen and (max-width:767px) {
+    #main__cont{
+               margin-bottom: 15vh ;
+        margin-top: 15vh;
+        width: 50vw;
+        height: auto;
+        background-color: rgb(21, 156, 111);
+        padding: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #txt {
+        font-size: 7vh;
+      
+    }
+
+    #user__input {
+        width: auto;
+    }
+
+    #todo__form{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #todo__form *{
+        padding: 3vh;
+        
+    } 
+
+    #butt {
+        margin: 2vh;
+        width: 20vw;
+        align-self: center;
+    border-radius: 9px;
+    }
+
+    .item__ok{
+        border: 1px solid black;
+        margin: 2vh;
+        padding: 5vh;
+        background-color: gold;
+        /* border-radius: 15px; */
+    }
+
+    .item__err {
+        border: 1px solid black;
+        margin: 2vh;
+        padding: 5vh;
+        background-color: rgb(142, 170, 20);
+        border-radius: 15px;
+    }
+
+    #foot {
+        margin-top: 10px;
+        background-color: khaki;
+        width: 100%;
+        padding: 1px;
+    }
+
+    
+    .list li{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+    .num {
+        color: #fff;
+        background-color: darkkhaki;
+        width: 5vw;
+        height: 5vh;
+        margin: 0px 7px 0px 0px;
+        flex: 1;
+    }
+    .txt {
+    flex: 4;
+    }
+    .close {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: darkkhaki;
+        width: 5vw;
+        height: 5vh;
+        margin: 0px 0px 0px 7px;
+        justify-self: end;
+        flex:1;
+        border-radius: 5px;
+    }
+    .close:hover{
+        background-color: darkslategrey;
+        color: #fff;
+    }
+
+    .ok {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: darkkhaki;
+        width: 5vw;
+        height: 5vh;
+        margin: 0px 0px 0px 7px;
+        justify-self: end;
+        flex: 1;
+        border-radius: 5px;
+    }
+    .ok:hover{
+        background-color: darkslategrey;
+        color: #fff;
+    }
+    
+    
+
+
+}
+
+
+
+/*------------------responsive for pc-----------*/
+@media only screen and (min-width:770px) {
+    #main__cont{
+        display: grid;
+        grid-template-rows: repeat(5, 1fr) ;
+        margin-bottom: 15vh ;
+        margin-top: 15vh;
+        width: 50vw;
+        height: auto;
+        background-color: rgb(21, 156, 111);
+        padding: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #txt {
+        font-size: 3vh;
+      
+    }
+
+    #user__input {
+        width: 30vh;
+    }
+
+    #todo__form{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #todo__form *{
+        padding: 3vh;
+        
+    } 
+
+    #butt {
+        margin: 2vh;
+        width: 12vw;
+        align-self: center;
+    border-radius: 9px;
+    }
+
+    .item__ok{
+        border: 1px solid black;
+        margin: 2vh;
+        padding: 5vh;
+        background-color: gold;
+        /* border-radius: 15px; */
+    }
+
+    .item__err {
+        border: 1px solid black;
+        margin: 2vh;
+        padding: 5vh;
+        background-color: rgb(142, 170, 20);
+        border-radius: 15px;
+    }
+
+    #foot {
+        margin-top: 10px;
+        background-color: khaki;
+        width: 100%;
+        padding: 1px;
+        position: relative;
+
+    }
+
+        
+    .list li{
+            display: flex;
+            padding: 0;
+            justify-content: center;
+        }
+        .num {
+            color: #fff;
+            background-color: darkkhaki;
+            width: 5vw;
+            height: 5vh;
+            margin: 0px 7px 0px 0px;
+            flex: 1;
+        }
+        .txt {
+        flex: 4;
+        }
+        .close {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: darkkhaki;
+            width: 5vw;
+            height: 5vh;
+            margin: 0px 0px 0px 7px;
+            justify-self: end;
+            flex:1;
+            border-radius: 5px;
+        }
+        .close:hover{
+            background-color: darkslategrey;
+            color: #fff;
+        }
+
+        .ok {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: darkkhaki;
+            width: 5vw;
+            height: 5vh;
+            margin: 0px 0px 0px 7px;
+            justify-self: end;
+            flex: 1;
+            border-radius: 5px;
+        }
+        .ok:hover{
+            background-color: darkslategrey;
+            color: #fff;
+        }
+        
+        
+
+}
+
